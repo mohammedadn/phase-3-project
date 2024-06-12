@@ -1,4 +1,4 @@
-"""import unittest
+import unittest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from app.models import Base, Contact
@@ -55,4 +55,4 @@ class TestContactMethods(unittest.TestCase):
         self.assertIsNone(deleted_contact)
 
 if __name__ == "__main__":
-    unittest.main()"""
+    unittest.main()
